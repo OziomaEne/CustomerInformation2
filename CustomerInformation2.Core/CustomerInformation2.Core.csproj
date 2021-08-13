@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entities\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Services\" />
+    <None Remove="DTO\" />
+    <None Remove="DTO\RequesDto\" />
+    <None Remove="DTO\ResponseDto\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Services\" />
+    <Folder Include="DTO\" />
+    <Folder Include="DTO\RequesDto\" />
+    <Folder Include="DTO\ResponseDto\" />
+  </ItemGroup>
+</Project>
